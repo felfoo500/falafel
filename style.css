@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, Sans-Serif;
+  color: #505050;
+  background-color: #44484F;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  font-size: 14px;
+}
+
+h1, h1 a, h1 a:hover {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 35px;
+  padding-top: 20px;
+  text-decoration: none;
+  color: #505050;
+}
+
+a {text-decoration: none; color: #404040;}
+a:hover { text-decoration: underline; }
+img {border: none;}
+* {padding: 0px; margin: 0px;}
+
+#header {background: url(../images/header.png); height: 80px; width: 900px;}
+#main {background: url(../images/bg.png); padding: 1px; width: 100%;}
+#footer {background: url(../images/foot.png); border: none; margin: 0 auto; width: 900px; font-size: 12px; text-align: center; height: 80px;}
+#footer a {font-size: 12px;}
+#page {margin: 20px auto 10px auto; text-align: left; width: 900px;}
+
+input {border: 1px solid #C0C0C0;}
+#formcontainer {margin-left: auto; margin-right: auto; width: 900px; margin-bottom: 5px;}
+#formcontainer label {font-size: 18px; font-weight: bold; display: block; width: 680px; margin-top: 20px; color: #00469B; margin-left: 140px;}
+#formcontainer input.text {font-size: 22px; font-weight: bold; width: 540px; margin-left: 140px; color: #666666; height: 28px;}
+#formcontainer input.inputbutton {background: #D0D0D0 url(../images/gradient2.png) 0 0 repeat-x; width: 130px; font-size: 16px; font-weight: bold; color: #00469B; padding: 0px; margin: 0px; height: 30px;}
+#formcontainer input.inputbutton:hover {background: #E0E0E0 url(../images/gradient1.png) 0 0 repeat-x;}
+
+#spinner_container {height: 25px; margin-top: 10px;}
+#spinner {text-align: center;}
+
+/* Styling for the result section */
+#result {
+    clear: both;
+    padding-top: 15px;
+    text-align: center;
+	    }
+
+/* Styling for the flash messages */
+.flash {
+    clear: both;
+    background-image:url(../images/error.jpg);
+    background-repeat: no-repeat;
+    background-color: #FFFF99;
+    color: #00469B;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: "helvetica neue", arial; sans-serif;
+    padding: 0px 0 0px 25px;
+    width: 500px;
+    text-align: left;
+}
+
+div.video_container
+{
+	background: transparent;
+	width: 90%;
+	overflow: hidden;
+	height: 100%;
+	margin: 5px 0px 20px 0px;
+	padding: 0px;
+}
+
+div.new_record
+{
+	background: #FCFCFC;
+	border: 1px solid #E0E0E0;
+	overflow: hidden;
+	height: 100%;
+	margin: 5px 0px 5px 0px;
+	padding: 0px;
+}
+
+div.watch_record
+{
+	background: #FCFCFC;
+	border: 1px solid #E0E0E0;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	height: 380px;
+	width: 900px;
+}
+
+div.new_record_grouptitle
+{
+	background: transparent;
+	overflow: hidden;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+div.new_record_grouptitle h2
+{
+	font-family: arial;
+	color: #505050;;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.youtube_container
+{
+	float: left;
+	margin: 10px;
+	overflow: hidden;
+	height: 100%;
+	padding: 0px;
+}
+
+div.image_container
+{
+	float: left;
+	margin: 10px;
+	overflow: hidden;
+	height: 100%;
+	padding: 0px;
+}
+div.data_container
+{
+	margin: 10px 10px 10px 0px;
+	text-align: left;
+	overflow: hidden;
+	height: 100%;
+	padding: 0px;
+}
+div.data_container h2
+{
+	font-family: arial;
+	color: #505050;;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+div.data_container a, div.data_container a:visited
+{
+	color: rgb(0,90,180);
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+div.data_container a:hover
+{
+	color: rgb(0,90,180);
+	text-decoration: underline;
+	font-weight: bold;
+}
+div.data_container p
+{
+	font-family: arial;
+	color: rgb(80,80,80);
+	font-size: 12px;
+	font-weight: normal;
+	margin: 5px 10px 0px 0px;
+	padding: 0px;
+	width: 100%;
+}
